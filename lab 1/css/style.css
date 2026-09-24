@@ -1,0 +1,39 @@
+{margin: 0; padding 0; box-sizing: border-box;}
+
+container {
+    width: 100%;
+}
+
+header {
+    background-color: #f39d9d;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f39d9d;
+    margin-top: 24px;
+    text-align: center;
+}
+
+article{ 
+    @media (width >= 768px) {
+        display: inline-block;
+        width: 30%;
+        margin right: 3%;
+        vertical-align: top;
+        background-color: #f39d9d;
+        text-align: center;
+    }
+}
+
+.showcase {
+    display: block;
+    width: 100%;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
